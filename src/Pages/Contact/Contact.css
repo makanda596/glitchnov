@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: #f2f2f2;
+}
+
+.contact-form-container {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.form-left {
+    flex: 1;
+    padding: 50px 40px;
+}
+
+.form-left h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #003366;
+    font-weight: 700;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #003366;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333333;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #0066cc;
+    background-color: #ffffff;
+    outline: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #0059b3;
+    transform: translateY(-2px);
+}
+
+.success-message,
+.message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0f7e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-right {
+    flex: 1;
+    background-image: url('../../assets/images/creative1.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.form-right::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 51, 102, 0.7);
+}
+
+@media (max-width: 992px) {
+    .contact-form-container {
+        flex-direction: column;
+    }
+
+    .form-right {
+        height: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-left {
+        padding: 30px 20px;
+    }
+
+    .form-left h2 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,663 @@
+
+
+.client-section {
+    position: relative;
+    overflow: hidden; /* Hide overflow to enable sliding effect */
+    height: 200px; 
+    margin: 50px 0px;
+}
+.client-section h2{
+    text-align: center;
+    margin: 20px 0px;
+}
+.client-slider {
+    display: flex;
+    animation: slide 20s linear infinite; /* Slide animation */
+}
+
+.client-image {
+    min-width: 10%;/* Ensure each image takes full width */
+    height: 40%;
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+}  
+.client-image img{
+    height: 50%;
+    width:70%;
+    
+}
+ .product-left button{
+        padding: 10px 10px;
+        background-color: blue;
+        color: white;
+        outline: none;
+        margin-left: 50px;
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+/* Keyframes for sliding animation */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Adjust according to number of images */
+    }
+}
+/*ABOUT SECTIONS*/
+.about{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px 100px
+}
+.about-left{
+    width:100%;
+
+}
+.about-left ,h4,h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: blue;
+}
+.about-left p{
+    font-size: 20px;
+    line-height: 2;
+    color: #333;
+}
+.about-left p span{
+    color: goldenrod;
+    font-weight: 600;
+    font-size: 26px;
+}
+.about-right{
+    position: relative; 
+}
+.about-left h4{
+    text-align: center;
+   font-size: 24px;
+}
+.img-slide{
+    display: flex;
+    flex-direction: row;
+}
+.img-section{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 10px ;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.img-slide img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;   
+}
+.img-slide img:hover{
+    width: 160%;
+   z-index: 1;
+    transition: 1s ease-in-out;
+}
+.about-right img{
+    width: 100%;
+    
+}
+
+
+    .about-right .img2{
+        position: absolute;
+        width: 40%;
+        top:0px;
+        left: 100px;
+        height: 30%;
+        box-shadow: 10px 10px 10px gray;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+    padding: 0px 100px;
+    
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+}
+.list ul li{
+    cursor: pointer;
+}
+.list .active{
+    border: 2px solid blue;
+    padding: 2px 8px;
+    background-color: blue;
+    color:white
+}
+.list input{
+    padding: 10px 12px;
+    font-size: 18px;
+    outline: none;
+}
+.photos{
+    display: grid;
+    gap: 10px;
+    padding: 10px 10px;
+    grid-template-columns: repeat(5,1fr);
+}
+.photose{
+    display: none;
+    gap: 10px;
+    padding: 10px 10px;
+    grid-template-columns: repeat(5,1fr);
+}
+.photosa {
+ width: 100%;
+ padding: 2px;
+}
+.photose img{
+    width: 100%;
+}
+.photos  img{
+    width: 100%;
+}
+.photos img{
+    width: 100%;
+    cursor: pointer;
+}
+.photos img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    box-shadow: 10px 10px 10px gray;
+}
+.photos p{
+    display: none;
+}
+.more{
+    gap: 10px;
+    padding: 10px 10px;
+    grid-template-columns: repeat(5,1fr);
+    display: none;
+}
+.more p{
+    display: none;
+}
+
+.more img{
+    width: 100%;
+    cursor: pointer;
+}
+.more img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    box-shadow: 10px 10px 10px gray;
+}
+.lode-more button{
+    color: white;
+    background-color: blue;
+    margin: 20px 100px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.lode-more button:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+    background-color: goldenrod;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal content */
+.modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    padding: 6px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Modal image */
+.modal-image {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+}
+/* Video Section */
+.video-section {
+    display: none;
+    grid-template-columns: repeat(3,1fr);
+    padding: 40px 0px;
+    
+}
+
+.video-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: visible;
+    cursor: pointer;
+    
+}
+
+.video-element {
+    width: 20%;
+    height: 20%;
+    object-fit: cover; 
+    margin: 2px 20px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: white;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}
+
+
+
+.video-container:hover .video-element {
+    filter: brightness(50%);
+}
+
+.play-button span {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+
+/* Video Modal Popup */
+.video-modal {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-modal-content {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.video-modal-content video {
+    width: 100%;
+    height: 80vh;
+    display: block;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.close-modal:hover {
+    background-color: darkred;
+}
+.product-section{
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    gap: 30px;
+    align-items: center;
+}
+.product-left{
+    width: 60%;
+}
+.product-left video{
+    width: 100%;
+}
+.product-right{
+    width: 40%;    
+    margin-top: -40px;
+}
+.product-right h5{
+    color: blue;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.product-right p{
+    font-size: 20px;
+    text-align: start;
+    line-height: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.hire{
+    background: url(../../assets/images/indoor6.jpg) no-repeat;
+    background-size:cover;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hire h6{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-top: -100px;
+    width: 60%;
+}
+.hire button{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px 32px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.hire button:hover{
+    background-color: goldenrod;
+}
+
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .list {
+        padding: 2px 2px;
+    }
+
+    .list ul {
+        gap: 10px;
+        margin: 20px  40px;
+    }
+    .about{
+        display:flex;
+        flex-direction:column;
+        padding: 2px 40px;
+    }
+    .client-section{
+        margin: 0px 2px;
+    }
+    .product-section{
+        display:flex;
+        flex-direction: column-reverse;
+        padding: 2px 4px;
+        width: 90%;
+        margin-left: 2px;
+    }
+    .product-right{
+        width: 100%;
+    }
+    
+    .product-right p{
+        margin: 20px;
+        width: 100%;
+        line-height: 36px;
+    }
+    .product-left{
+        width: 100%;
+        margin-left: 30px;
+    } 
+   
+    .about-left p{
+        font-size:18px;
+    }
+    .list input {
+        margin-top: 10px;
+        width: 40%;
+        padding: 8px 8px;
+        font-size: 16px;
+        margin: 0px 40px;
+    }
+
+    .photos, .more, .photose {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .photosa {
+        margin-bottom: 2px;
+    }
+}
+
+
+
+/* Modal overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.modal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Video section */
+.video-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    gap: 2px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.video-element {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+}
+
+.play-button {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 30%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* For mobile video */
+@media (max-width: 768px) {
+    .video-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .video-section {
+        grid-template-columns: 1fr;
+    }
+}
+/* For smaller mobile screens */
+@media (max-width: 480px) {
+
+    .client-section {
+        height: 150px; 
+        margin: 20px 5px; 
+    }
+    .client-image {
+        min-width: 20%; /* Increase width for better visibility on smaller screens */
+        height: 100%; /* Ensure full height within the section */
+    }
+
+    .client-image img {
+        width: 100%; /* Full-width image for responsiveness */
+        height: auto; /* Auto height to maintain aspect ratio */
+    }
+
+    .about {
+        padding: 10px 20px; /* Reduce padding for smaller screens */
+        grid-template-columns: 1fr; /* Stack content in a single column */
+    }
+
+    .about-left h4, .about-left h3 {
+        font-size: 24px; /* Reduce font size */
+        margin-bottom: 10px;
+    }
+
+    .about-left p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        line-height: 1.5; /* Improve readability */
+    }
+
+
+    
+    .list ul {
+        gap: 10px; /* Reduce gap between list items */
+        font-size: 16px; 
+        margin-left: 2px;
+    }
+
+    .list input {
+        width: 100%;
+        font-size: 16px;  
+        margin-bottom: 4px;
+    }
+
+    .photos, .more, .photose {
+        padding: 0px 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .photosa, .more img, .photos img {
+        width: 100%; /* Ensure images take up full width */
+    }
+
+    .product-section {
+        padding: 10px 5px; /* Reduce padding */
+        margin: 20px 0px; /* Adjust margin */
+        flex-direction: column-reverse; /* Stack items vertically */
+    }
+
+    .product-right, .product-left {
+        width: 100%; /* Make sections full-width */
+        margin: 0; /* Remove extra margins */
+    }
+
+    .product-right p {
+        font-size: 18px; /* Adjust font size */
+        margin: 10px 20px; /* Adjust margin */
+        line-height: 1.4; /* Improve readability */
+    }
+
+    .hire {
+        height: 100vh;
+        width: 100%; 
+        padding: 20px 10px; 
+    }
+
+    .hire h6 {
+        font-size: 20px;
+        margin-top: -50px; 
+        width: 90%; 
+    }
+
+    .hire button {
+        font-size: 18px; 
+        padding: 8px 20px; 
+    }
+
+    /* Modal section */
+    .modal-content {
+        padding: 10px; /* Reduce padding for mobile */
+        max-width: 90%; /* Ensure it fits within smaller screens */
+    }
+
+    .modal-image {
+        height: auto; /* Ensure the image adjusts height naturally */
+    }
+
+    /* Video Section */
+    .video-section {
+        padding: 10px; /* Reduce padding */
+        grid-template-columns: 1fr; /* Stack videos in one column */
+    }
+
+    .video-container {
+        width: 100%; /* Ensure video container is full width */
+    }
+
+    .video-element {
+        width: 100%; /* Full width video */
+        height: auto; /* Auto height to maintain aspect ratio */
+    }
+}

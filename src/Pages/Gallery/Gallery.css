@@ -1,0 +1,30 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ .gallery{
+    background: url(../../assets/images/indoor13.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment:fixed ;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .gallery h1{
+   color: white;
+   font-size: 36px;
+
+ }
+ .gallery p{
+   font-size: 26px ;
+   width: 36%;
+   text-align: center;
+   color: white;
+ }
+ .video-section{
+    display: none;
+ } 

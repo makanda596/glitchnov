@@ -1,0 +1,151 @@
+/* Navbar and general styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: goldenrod;
+    padding-left: 20px;
+    padding-right: 50px;
+    z-index: 1;
+    position: fixed;
+}
+
+.navbar img {
+    width: 6%;
+    height: 6%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+}
+
+.media {
+    display: flex;
+    gap: 40px;
+}
+
+.media a:hover {
+    color: blue;
+    transition: color 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+
+/* Links */
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+/* Hover state */
+.nav-links a:hover {
+    border-bottom: 2px solid blue;
+}
+
+/* Active link state */
+.link .active {
+    border-bottom: 2px solid blue;
+}
+
+/* Dropdown menu container */
+.dropdown { 
+    position: relative;
+    display: inline-block;
+    cursor:pointer;
+}
+ 
+.dropdown span {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+}
+
+/* Dropdown content */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    left: -50%;
+    color: white;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Dropdown items */
+.dropdown-menu li {
+    padding: 10px 12px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    transition: background-color 0.2s;
+}
+
+/* Mobile Menu Icon */
+.mobile-menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: -100%; /* Start from left */
+    width: 40%;
+    background-color: goldenrod;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    height: 50vh;
+    transition: right 0.7s ease; /* Slide effect */
+  }
+
+  /* Show the mobile menu when open */
+  .nav-links-mobile.open {
+    right: 0; /* Slide to visible */
+  }
+
+  .nav-links-mobile li {
+    margin: 25px 0;
+  }
+
+  .nav-links-mobile a {
+    font-size: 1.2em;
+    color: white;
+  }
+}
