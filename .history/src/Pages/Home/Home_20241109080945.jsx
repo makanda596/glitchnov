@@ -115,7 +115,7 @@ function Home() {
                     <div className="client-slider">
                         {clientImages.map((image, index) => (
                             <div className="client-image" key={index}>
-                                <img src={image.image} alt="" loading="lazy" />
+                                <img src={image.image} alt="" />
                             </div>
                         ))}
                     </div>
@@ -138,15 +138,15 @@ function Home() {
                         <div className="img-section">
                             {sliding.map((item, index) => {
                                 return <div className="img-slide" key={index}>
-                                    <img src={item.image} alt="" loading="lazy" />
+                                    <img src={item.image} alt="" />
                                 </div>
                             })}
 
                         </div>
                     </div>
                     <div className="about-right">
-                        <img className="img1" src={logo} alt="" loading="lazy" />
-                        <img className="img2" src={creative10} alt="" loading="lazy" />
+                        <img className="img1" src={logo} alt="" />
+                        <img className="img2" src={creative10} alt="" />
                     </div>
                 </div>
                 <div className="list">
@@ -199,7 +199,6 @@ function Home() {
                                             src={item.image}
                                             alt=""
                                             onClick={() => handleImageClick(item.image)}
-                                            loading="lazy"
                                         />
 
                                         <p>{item.name}</p>
@@ -217,7 +216,6 @@ function Home() {
                                     src={selectedImage}
                                     alt="Selected"
                                     className="modal-image"
-                                    loading="lazy"
                                 />
                             </div>
                         </div>
@@ -239,7 +237,6 @@ function Home() {
                                                 src={item.image}
                                                 alt=""
                                                 onClick={() => handleImageClick(item.image)}
-                                                loading="lazy"
                                             />
                                             <p>{item.name}</p>
                                         </div>
@@ -256,7 +253,6 @@ function Home() {
                                         src={selectedImage}
                                         alt="Selected"
                                         className="modal-image"
-                                        loading="lazy"
                                     />
                                 </div>
                             </div>
@@ -328,7 +324,6 @@ function Home() {
                                         src={item.image}
                                         alt=""
                                         onClick={() => handleImageClick(item.image)}
-                                        loading="lazy"
                                     />
                                 </div>
                             </div>
@@ -358,7 +353,6 @@ function Home() {
                                         src={item.image}
                                         alt=""
                                         onClick={() => handleImageClick(item.image)}
-                                        loading="lazy"
                                     />
                                 </div>
                             </div>
@@ -374,7 +368,6 @@ function Home() {
                                     src={selectedImage}
                                     alt="Selected"
                                     className="modal-image"
-                                    loading="lazy"
                                 />
                             </div>
                         </div>
