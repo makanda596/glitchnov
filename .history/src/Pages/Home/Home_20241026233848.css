@@ -12,20 +12,18 @@
 }
 .client-slider {
     display: flex;
-    animation: slide 20s linear infinite;
+    animation: slide 20s linear infinite; /* Slide animation */
 }
 
-.client-image { 
-    min-width: 10%;
+.client-image {
+    min-width: 10%;/* Ensure each image takes full width */
     height: 40%;
-    background-size: cover; 
-    object-fit: cover;
-    background-position: center; 
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
 }  
 .client-image img{
     height: 50%;
-    width:50%;
-    border-radius: 20%;
+    width:70%;
     
 }
  .product-left button{

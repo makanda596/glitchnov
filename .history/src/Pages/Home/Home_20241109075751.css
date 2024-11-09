@@ -19,7 +19,6 @@
     min-width: 10%;
     height: 40%;
     background-size: cover; 
-    object-fit: cover;
     background-position: center; 
 }  
 .client-image img{
