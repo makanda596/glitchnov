@@ -5,7 +5,7 @@ import Footer from '../../Components/Footer/Footer.jsx';
 import "./Home.css";
 import logo from "../../assets/product shoot/glitch.png";
 import { Link } from 'react-router-dom'
-// import pabrio3 from "../../assets/Events/cooperate events/pabiro-2.mp4";
+import pabrio3 from "../../assets/Events/cooperate events/pabiro-2.mp4";
 import creative10 from '../../assets/concept & creativity/creative10.jpg'
 import {//All the images imported from the data assets 
     clientImages,

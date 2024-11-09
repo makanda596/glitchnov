@@ -6,7 +6,7 @@
     background-color: goldenrod;
     padding-left: 20px;
     padding-right: 50px;
-    z-index: 100;
+    z-index: 1;
     position: fixed;
 }
 
