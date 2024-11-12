@@ -650,7 +650,7 @@ export const videos = [
     },
     {
         id: 2,
-        src: "https://res.cloudinary.com/db5pgr14l/video/upload/v1731394640/glitchwebsite/mnec90kzznoecrppajpz.mp4",
+        src: videowed1,
     },
     {
         id: 1,
@@ -658,7 +658,7 @@ export const videos = [
     },
     {
         id: 1,
-        src: "https://res.cloudinary.com/db5pgr14l/video/upload/v1731394827/glitchwebsite/nv7eeidukf7jsfjvqlo4.mp4"
+        src: videowed2,
     }
 ]
 export const all_image = [

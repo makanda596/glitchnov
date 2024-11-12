@@ -119,7 +119,7 @@ export const sliding = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731392056/glitchwebsite/a472h0suy7qrdjbjm1jg.jpg",
+        image: out3,
         name: "outdoor"
     },
     {
@@ -155,7 +155,7 @@ export const outdoors_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731391993/glitchwebsite/qepghhcxvm1yxbhvlpqh.jpg"
+        image: out1
     },
     {
         id: 2,
@@ -167,7 +167,7 @@ export const outdoors_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731392056/glitchwebsite/a472h0suy7qrdjbjm1jg.jpg"
+        image: out3
     },
     {
         id: 19,
@@ -314,11 +314,11 @@ export const events_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731391991/glitchwebsite/tvfcdvm71lr2czhq6x5h.jpg"
+        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731392077/glitchwebsite/jug73ftmqbd7gs9joqjz.jpg"
     },
     {
         id: 3,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731392056/glitchwebsite/a472h0suy7qrdjbjm1jg.jpg"
+        image: out3
     },
     {
         id: 4,
@@ -365,7 +365,7 @@ export const events_image = [
     },
     {
         id: 9,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731391991/glitchwebsite/tvfcdvm71lr2czhq6x5h.jpg",
+        image: birthday1,
         name: "birthday"
     },
     {
@@ -532,7 +532,7 @@ export const outdoor_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731391993/glitchwebsite/qepghhcxvm1yxbhvlpqh.jpg"
+        image: out1
     },
     {
         id: 2,
@@ -540,7 +540,7 @@ export const outdoor_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731392056/glitchwebsite/a472h0suy7qrdjbjm1jg.jpg"
+        image: out3
     },
 
 
@@ -576,11 +576,11 @@ export const event_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731391991/glitchwebsite/tvfcdvm71lr2czhq6x5h.jpg"
+        image: birthday1
     },
     {
         id: 3,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731392056/glitchwebsite/a472h0suy7qrdjbjm1jg.jpg"
+        image: out3
     },
     {
         id: 4,
@@ -650,7 +650,7 @@ export const videos = [
     },
     {
         id: 2,
-        src: "https://res.cloudinary.com/db5pgr14l/video/upload/v1731394640/glitchwebsite/mnec90kzznoecrppajpz.mp4",
+        src: videowed1,
     },
     {
         id: 1,
@@ -658,7 +658,7 @@ export const videos = [
     },
     {
         id: 1,
-        src: "https://res.cloudinary.com/db5pgr14l/video/upload/v1731394827/glitchwebsite/nv7eeidukf7jsfjvqlo4.mp4"
+        src: videowed2,
     }
 ]
 export const all_image = [
@@ -702,7 +702,7 @@ export const all_image = [
 
     {
         id: 9,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731391991/glitchwebsite/tvfcdvm71lr2czhq6x5h.jpg",
+        image: birthday1,
         name: "birthday"
     },
     {
