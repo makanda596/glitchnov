@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/product shoot/glitch.png';
 import './Navbar.css';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -11,7 +12,7 @@ function Navbar() {
 
     return (
         <nav className="navbar">
-            <img src={"https://res.cloudinary.com/db5pgr14l/image/upload/v1731421429/glitchwebsite/qhglma9r3oneykstpsgn.png"} className="logo" alt="Logo" />
+            <img src={logo} className="logo" alt="Logo" />
 
             <ul className={`nav-links nav-links-mobile ${mobileMenuOpen ? 'open' : ''}`}>
                 <li className='link'>
