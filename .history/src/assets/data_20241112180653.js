@@ -706,21 +706,13 @@ export const load_more = [
         name: "indoor"
     },
 ]
-
 export const images = [
-    require('./outdoor1.jpg'),
-    require('./wed3.jpg'),
-    require('./cooperate1.jpg'),
-    require('./wed1.jpg'),
-    require('./creative1.jpg'),
+    require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731419491/glitchwebsite/lolzxbkrawum3uhys76g.jpg'),
+    require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731397081/glitchwebsite/dt6xfipap9dpmvnbi72k.jpg'),
+    require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731422431/glitchwebsite/mgatnl6tilqb8wyggdnl.jpg'),
+    require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731397086/glitchwebsite/owfv1md8yprwxoilr1ny.jpg'),
+    require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731414621/glitchwebsite/liad4n1pd66w1fqgkgko.jpg'),
 ];
-// export const images = [
-//     require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731419491/glitchwebsite/lolzxbkrawum3uhys76g.jpg'),
-//     require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731397081/glitchwebsite/dt6xfipap9dpmvnbi72k.jpg'),
-//     require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731422431/glitchwebsite/mgatnl6tilqb8wyggdnl.jpg'),
-//     require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731397086/glitchwebsite/owfv1md8yprwxoilr1ny.jpg'),
-//     require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731414621/glitchwebsite/liad4n1pd66w1fqgkgko.jpg'),
-// ];
 
 export const clientImages = [
     {
