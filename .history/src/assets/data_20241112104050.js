@@ -129,12 +129,12 @@ export const sliding = [
     },
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731414686/glitchwebsite/cfoe2we2odmvhxovj2pb.jpg",
+        image: creative13,
         name: "creativity"
     },
     {
         id: 4,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731414633/glitchwebsite/na9iwijiaeorzhync5qd.jpg",
+        image: creative1,
         name: "potraite "
     },
     {
@@ -171,12 +171,12 @@ export const outdoors_image = [
     },
     {
         id: 19,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731414686/glitchwebsite/cfoe2we2odmvhxovj2pb.jpg",
+        image: creative13,
         name: "indoor"
     },
     {
         id: 19,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731414633/glitchwebsite/na9iwijiaeorzhync5qd.jpg",
+        image: creative4,
         name: "indoor"
     },
     {
@@ -189,7 +189,7 @@ export const outdoors_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416270/glitchwebsite/yrgcbh5q9bmjgmptmtet.jpg"
+        image: couples7
     },
     {
         id: 2,
@@ -241,7 +241,7 @@ export const outdoors_image = [
     },
     {
         id: 19,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416863/glitchwebsite/oz3lyp5b07ukkini8rp6.jpg",
+        image: creative10,
         name: "indoor"
     },
     {
@@ -322,7 +322,7 @@ export const events_image = [
     },
     {
         id: 4,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731397081/glitchwebsite/vndknwvgevhwpmoe04kh.jpg"
+        image: wed9
     },
     {
         id: 5,
@@ -334,7 +334,7 @@ export const events_image = [
     },
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731397081/glitchwebsite/kou12hiatvitejuqstkt.jpg"
+        image: wed17
     },
     {
         id: 1,
@@ -350,12 +350,12 @@ export const events_image = [
     },
     {
         id: 12,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731397099/glitchwebsite/fmwchwnutyaubplki4vb.jpg",
+        image: wed19,
         name: "wedding"
     },
     {
         id: 3,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416176/glitchwebsite/vgpknbrhhmd9dcx5c6il.jpg",
+        image: couples5,
         name: "wedding"
     },
     {
@@ -394,7 +394,7 @@ export const loading_more = [
 
     {
         id: 11,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731397099/glitchwebsite/fmwchwnutyaubplki4vb.jpg",
+        image: wed19,
         name: "wedding"
     },
     {
@@ -490,7 +490,7 @@ export const loading_more = [
     },
     {
         id: 26,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731417073/glitchwebsite/zcirfzkydij0loanvlsp.jpg",
+        image: outdoor13,
         name: "outdoor"
     },
     {
@@ -536,7 +536,7 @@ export const outdoor_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731397081/glitchwebsite/dt6xfipap9dpmvnbi72k.jpg"
+        image: model6
     },
     {
         id: 2,
@@ -554,7 +554,7 @@ export const outdoor_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416270/glitchwebsite/yrgcbh5q9bmjgmptmtet.jpg"
+        image: couples7
     },
     {
         id: 2,
@@ -584,7 +584,7 @@ export const event_image = [
     },
     {
         id: 4,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731397081/glitchwebsite/vndknwvgevhwpmoe04kh.jpg"
+        image: wed9
     },
     {
         id: 5,
@@ -596,7 +596,7 @@ export const event_image = [
     },
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731397081/glitchwebsite/kou12hiatvitejuqstkt.jpg"
+        image: wed17
     },
     {
         id: 1,
@@ -615,11 +615,11 @@ export const event_image = [
 export const creative_image = [
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731414633/glitchwebsite/na9iwijiaeorzhync5qd.jpg"
+        image: creative1
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731414633/glitchwebsite/na9iwijiaeorzhync5qd.jpg"
+        image: creative4
     },
     {
         id: 3,
@@ -627,15 +627,15 @@ export const creative_image = [
     },
     {
         id: 4,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731414686/glitchwebsite/cfoe2we2odmvhxovj2pb.jpg"
+        image: creative13
     },
     {
         id: 5,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731414703/glitchwebsite/gs0t8pvruueo0ipimc7o.jpg"
+        image: creative6
     },
     {
         id: 6,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731414838/glitchwebsite/smxaj2lyd4cue58rcp0s.jpg"
+        image: creative5
     },
     {
         id: 7,
@@ -675,7 +675,7 @@ export const all_image = [
     },
     {
         id: 3,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416176/glitchwebsite/vgpknbrhhmd9dcx5c6il.jpg",
+        image: couples5,
         name: "wedding"
     },
 
@@ -712,7 +712,7 @@ export const all_image = [
     },
     {
         id: 10,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731417073/glitchwebsite/zcirfzkydij0loanvlsp.jpg",
+        image: indoor13,
         name: "indoor"
     },
 
@@ -721,7 +721,7 @@ export const load_more = [
 
     {
         id: 11,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731397099/glitchwebsite/fmwchwnutyaubplki4vb.jpg",
+        image: wed19,
         name: "wedding"
     },
     {
@@ -773,69 +773,69 @@ export const load_more = [
 ]
 export const images = [
     require('./outdoor1.jpg'),
-    require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731397081/glitchwebsite/dt6xfipap9dpmvnbi72k.jpg'),
+    require('./wed3.jpg'),
     require('./cooperate1.jpg'),
-    require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731397086/glitchwebsite/owfv1md8yprwxoilr1ny.jpg'),
-    require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731414621/glitchwebsite/liad4n1pd66w1fqgkgko.jpg'),
+    require('./wed1.jpg'),
+    require('./creative1.jpg'),
 ];
 
 export const clientImages = [
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416478/glitchwebsite/tbkujumch2rv0n77z7o8.jpg",
+        image: image1,
         name: "dfdsddfdf"
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416478/glitchwebsite/tbkujumch2rv0n77z7o8.jpg",
+        image: image2,
         name: "dfdf"
     },
     {
         id: 3,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416479/glitchwebsite/ilwd0umgccfsa1pcvfyz.jpg",
+        image: image3,
         name: "dfdf"
     },
     {
         id: 4,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416479/glitchwebsite/pgxpapefzgp771foqse6.jpg",
+        image: image4,
         name: "dmnfnrfn"
     },
     {
         id: 5,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416480/glitchwebsite/yj2ada3cdu89zqdrbs5s.jpg",
+        image: image5,
         name: "nbdkdj"
     },
     {
         id: 6,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416481/glitchwebsite/bgzwzdxspzedkwogcmkl.jpg",
+        image: image6,
     },
     {
         id: 11,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416478/glitchwebsite/tbkujumch2rv0n77z7o8.jpg",
+        image: image1,
         name: "dfdsddfdf"
     },
     {
         id: 12,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416478/glitchwebsite/tbkujumch2rv0n77z7o8.jpg",
+        image: image2,
         name: "dfdf"
     },
     {
         id: 3,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416479/glitchwebsite/ilwd0umgccfsa1pcvfyz.jpg",
+        image: image3,
         name: "dfdf"
     },
     {
         id: 14,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416479/glitchwebsite/pgxpapefzgp771foqse6.jpg",
+        image: image4,
         name: "dmnfnrfn"
     },
     {
         id: 15,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416480/glitchwebsite/yj2ada3cdu89zqdrbs5s.jpg",
+        image: image5,
         name: "nbdkdj"
     },
     {
         id: 16,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416481/glitchwebsite/bgzwzdxspzedkwogcmkl.jpg",
+        image: image6,
     },
 ];

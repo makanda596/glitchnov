@@ -241,7 +241,7 @@ export const outdoors_image = [
     },
     {
         id: 19,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731416863/glitchwebsite/oz3lyp5b07ukkini8rp6.jpg",
+        image: creative10,
         name: "indoor"
     },
     {
@@ -490,7 +490,7 @@ export const loading_more = [
     },
     {
         id: 26,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731417073/glitchwebsite/zcirfzkydij0loanvlsp.jpg",
+        image: outdoor13,
         name: "outdoor"
     },
     {
@@ -712,7 +712,7 @@ export const all_image = [
     },
     {
         id: 10,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731417073/glitchwebsite/zcirfzkydij0loanvlsp.jpg",
+        image: indoor13,
         name: "indoor"
     },
 
