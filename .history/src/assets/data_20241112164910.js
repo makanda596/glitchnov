@@ -1,47 +1,112 @@
+
+import image1 from '../assets/images/image1.jpg';
+import image2 from '../assets/images/image2.jpg';
+import image3 from '../assets/images/image3.jpg';
+import image4 from '../assets/images/image4.jpg';
+import image5 from '../assets/images/image5.jpg';
+import image6 from '../assets/images/image6.jpg'
+import model1 from '../assets/models shoot/model1.jpg'
 import model9 from '../assets/models shoot/model9.jpg'
+import model7 from '../assets/models shoot/model7.jpg'
+import model8 from '../assets/models shoot/model8.jpg'
+import wed9 from '../assets/Events/weddings & Ruracios/wed9.jpg'
+import event2 from '../assets/Events/cooperate events/event2.jpg'
+import event8 from '../assets/Events/cooperate events/event 8.jpg'
+import event1 from '../assets/Events/cooperate events/event1.jpg'
+import event9 from '../assets/Events/cooperate events/event9.jpg'
+import event4 from '../assets/Events/cooperate events/event4.jpg'
+import event3 from '../assets/Events/cooperate events/event3.jpg'
+import event7 from '../assets/Events/cooperate events/event7.jpg'
+import wed7 from '../assets/Events/weddings & Ruracios/wed7.jpg'
+import wed17 from '../assets/Events/weddings & Ruracios/wed17.jpg'
 import birthday2 from '../assets/birthday shoot-20241015T110124Z-001/birthday shoot/birthday2.jpg'
+import out3 from '../assets/birthday shoot-20241015T110124Z-001/birthday shoot/out3.JPG'
 import outdoor from '../assets/birthday shoot-20241015T110124Z-001/birthday shoot/outdoor.jpg'
+import outdoor1 from '../assets/outdoor shoot/outdoor1.jpg'
+import outdoor11 from '../assets/outdoor shoot/outdoor11.jpg'
 import outdoor6 from '../assets/outdoor shoot/outdoor6.jpg'
+import outdoor7 from '../assets/outdoor shoot/outdoor7.jpg'
+import outdoor5 from '../assets/outdoor shoot/outdoor5.jpg'
+import outdoor3 from '../assets/outdoor shoot/outdoor3.jpg'
+import outdoor4 from '../assets/outdoor shoot/outdoor4.jpg'
+import outdoor14 from '../assets/outdoor shoot/outdoor14.jpg'
+import outdoor17 from '../assets/outdoor shoot/outdoor17.jpg'
+import outdoor18 from '../assets/outdoor shoot/outdoor18.jpg'
 import outdoor9 from '../assets/outdoor shoot/outdoor9.jpg'
 import outdoor8 from '../assets/outdoor shoot/outdoor8.jpg'
+import outdoor16 from '../assets/outdoor shoot/outdoor16.jpg'
+import outdoor13 from '../assets/outdoor shoot/outdoor13.jpg'
+import outdoor10 from '../assets/outdoor shoot/outdoor10.jpg'
+import outdoor12 from '../assets/outdoor shoot/outdoor12.JPG'
+import outdoor15 from '../assets/outdoor shoot/outdoor15.jpg'
+import indoor9 from '../assets/indoor shoot/indoor9.jpg'
+import indoor4 from '../assets/indoor shoot/indoor4.jpg'
 import indoor6 from '../assets/indoor shoot/indoor6.jpg'
+import indoor5 from '../assets/indoor shoot/indoor5.jpg'
+import indoor7 from '../assets/indoor shoot/indoor7.jpg'
 import indoor11 from '../assets/indoor shoot/indoor11.jpg'
+import indoor8 from '../assets/indoor shoot/indoor8.jpg'
 import indoor10 from '../assets/indoor shoot/indoor10.jpg'
 import indoor12 from '../assets/indoor shoot/indoor12.jpg'
+import indoor13 from '../assets/indoor shoot/indoor13.jpg'
+import couples5 from '../assets/couples shoot/couples5.jpg'
+import product1 from '../assets/product shoot/product1.jpg'
+import poster4 from '../assets/posters/poster4.jpg'
+import creative4 from '../assets/concept & creativity/creative4.jpg'
+import creative13 from '../assets/concept & creativity/creative13.jpg'
 import creative10 from '../assets/concept & creativity/creative10.jpg'
+import creative5 from '../assets/concept & creativity/creative5.jpg'
+import creative6 from '../assets/concept & creativity/creative6.jpg'
+import creative1 from '../assets/concept & creativity/creative1.jpg'
+import wed19 from '../assets/Events/weddings & Ruracios/wed19.jpg'
 import wed18 from '../assets/Events/weddings & Ruracios/wed18.jpg'
 import wed8 from '../assets/Events/weddings & Ruracios/wed8.jpg'
 import wed10 from '../assets/Events/weddings & Ruracios/wed10.jpg'
+import pabiro from '../assets/Events/cooperate events/pabiro-2.mp4'
+import horticulture from '../assets/Events/cooperate events/horticulture.mp4'
+import videowed1 from '../assets/Events/weddings & Ruracios/videowed1.mp4'
+import videowed2 from '../assets/Events/weddings & Ruracios/videowed2.mp4'
+import birthday1 from '../assets/birthday shoot-20241015T110124Z-001/birthday shoot/birthday1.jpg'
+import indoor2 from '../assets/birthday shoot-20241015T110124Z-001/birthday shoot/indo2.jpg'
 import out from '../assets/birthday shoot-20241015T110124Z-001/birthday shoot/out.jpg'
+import couples7 from '../assets/couples shoot/couples7.jpg'
+import model6 from '../assets/models shoot/model6.jpg'
+import out1 from '../assets/birthday shoot-20241015T110124Z-001/birthday shoot/out1.jpg'
+import poster1 from '../assets/posters/poster1.jpg'
+import poster2 from '../assets/posters/poster2.jpg'
+import poster3 from '../assets/posters/poster3.jpg'
+import poster5 from '../assets/posters/poster5.jpg'
+import poster6 from '../assets/posters/poster6.jpg'
+import PPT from '../assets/posters/PPT.jpg'
 
 export const poster = [
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421572/glitchwebsite/dr3qjjr1mdnpjrpj0flu.jpg"
+        image: PPT
     },
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421564/glitchwebsite/vc2jwjz3lxcv0luy4yay.jpg"
+        image: poster1
     },
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421566/glitchwebsite/o5duxoircpzcdyfjzu1u.jpg"
+        image: poster2
     },
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421569/glitchwebsite/utu4cixg8wginoyflecz.jpg"
+        image: poster3
     },
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421570/glitchwebsite/ff9jrybgsushb7ka553j.jpg"
+        image: poster4
     },
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421583/glitchwebsite/olnnexkwtn68wdy8ce3a.jpg"
+        image: poster5
     },
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421566/glitchwebsite/vqk9yiwgzhtqv9tl48cj.jpg"
+        image: poster6
     },
 
 
@@ -49,7 +114,7 @@ export const poster = [
 export const sliding = [
     {
         id: 1,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421886/glitchwebsite/fau8xtcxtenu2c79ubgw.jpg",
+        image: indoor2,
         name: "indoor "
     },
     {
@@ -74,12 +139,12 @@ export const sliding = [
     },
     {
         id: 5,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421566/glitchwebsite/o5duxoircpzcdyfjzu1u.jpg",
+        image: poster2,
         name: "poster making"
     },
     {
         id: 6,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731420496/glitchwebsite/wvent9jartyeemzn2zuh.jpg",
+        image: outdoor12,
         name: "poster making"
     }
 ]
@@ -94,7 +159,7 @@ export const outdoors_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419491/glitchwebsite/lolzxbkrawum3uhys76g.jpg"
+        image: outdoor1
     },
     {
         id: 2,
@@ -120,7 +185,7 @@ export const outdoors_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419562/glitchwebsite/ihoatmltgvwcnipeuhf9.jpg"
+        image: outdoor13
     },
     {
         id: 2,
@@ -128,24 +193,24 @@ export const outdoors_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419476/glitchwebsite/f13sydzozgdqie454kzp.jpg"
+        image: outdoor7
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419374/glitchwebsite/ro2rtq9c3soypgnz0kvs.jpg"
+        image: outdoor6
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419477/glitchwebsite/ccqnv4dginmxzfbbymgt.jpg"
+        image: outdoor3
     },
     {
         id: 8,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731420496/glitchwebsite/wvent9jartyeemzn2zuh.jpg",
+        image: outdoor12,
         name: "outdoor"
     },
     {
         id: 7,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419548/glitchwebsite/nwze3krdpq5ddnsc1q8b.jpg",
+        image: outdoor10,
         name: "event"
     },
     {
@@ -156,22 +221,22 @@ export const outdoors_image = [
 
     {
         id: 13,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421040/glitchwebsite/yj6duiwvaxmwlzxdkosa.jpg",
+        image: outdoor15,
         name: "outdoor"
     },
     {
         id: 14,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419548/glitchwebsite/wfbakxzl0mtoxegv2wlf.jpg",
+        image: outdoor11,
         name: "outdoor"
     },
     {
         id: 14,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731420576/glitchwebsite/yjuhujvarhztejlqkquv.jpg",
+        image: outdoor16,
         name: "outdoor"
     },
     {
         id: 14,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421040/glitchwebsite/yj6duiwvaxmwlzxdkosa.jpg",
+        image: outdoor17,
         name: "outdoor"
     },
     {
@@ -181,7 +246,7 @@ export const outdoors_image = [
     },
     {
         id: 14,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731420464/glitchwebsite/vbzxvloxwzqqwgubvxzo.jpg",
+        image: outdoor18,
         name: "outdoor"
     },
     {
@@ -202,7 +267,7 @@ export const outdoors_image = [
     },
     {
         id: 17,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421306/glitchwebsite/ztu1cvxyriyljj2ai6gh.jpg",
+        image: product1,
         name: "services"
     },
     {
@@ -222,7 +287,7 @@ export const outdoors_image = [
     },
     {
         id: 19,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419477/glitchwebsite/xkc1t9utah8yu5v1w51q.jpg",
+        image: outdoor5,
         name: "indoor"
     },
     {
@@ -238,7 +303,7 @@ export const outdoors_image = [
 
     {
         id: 19,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731420586/glitchwebsite/hmcddpjzj47hbpudljq1.jpg",
+        image: outdoor4,
         name: "indoor"
     },
 ]
@@ -340,27 +405,27 @@ export const loading_more = [
 
     {
         id: 13,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421040/glitchwebsite/yj6duiwvaxmwlzxdkosa.jpg",
+        image: outdoor15,
         name: "outdoor"
     },
     {
         id: 14,
-        image: 'https://res.cloudinary.com/db5pgr14l/image/upload/v1731419548/glitchwebsite/wfbakxzl0mtoxegv2wlf.jpg',
+        image: outdoor11,
         name: "outdoor"
     },
     {
         id: 31,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421566/glitchwebsite/o5duxoircpzcdyfjzu1u.jpg",
+        image: poster2,
         name: "product"
     },
     {
         id: 32,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421569/glitchwebsite/utu4cixg8wginoyflecz.jpg",
+        image: poster3,
         name: "product"
     },
     {
         id: 33,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421570/glitchwebsite/ff9jrybgsushb7ka553j.jpg",
+        image: poster4,
         name: "product"
     },
     {
@@ -380,7 +445,7 @@ export const loading_more = [
     },
     {
         id: 17,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421306/glitchwebsite/ztu1cvxyriyljj2ai6gh.jpg",
+        image: product1,
         name: "services"
     },
     {
@@ -410,17 +475,17 @@ export const loading_more = [
     },
     {
         id: 23,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419477/glitchwebsite/xkc1t9utah8yu5v1w51q.jpg",
+        image: outdoor5,
         name: "outdoor"
     },
     {
         id: 24,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419374/glitchwebsite/ro2rtq9c3soypgnz0kvs.jpg",
+        image: outdoor6,
         name: "outdoor"
     },
     {
         id: 25,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731422063/glitchwebsite/zkedvoxtbtwqpdkd2xl9.jpg",
+        image: outdoor14,
         name: "outdoor"
     },
     {
@@ -430,33 +495,33 @@ export const loading_more = [
     },
     {
         id: 27,
-        image: 'https://res.cloudinary.com/db5pgr14l/image/upload/v1731420576/glitchwebsite/yjuhujvarhztejlqkquv.jpg',
+        image: outdoor16,
         name: "outdoor"
     },
     {
         id: 28,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731420586/glitchwebsite/hmcddpjzj47hbpudljq1.jpg",
+        image: outdoor4,
         name: "outdoor"
     },
     {
         id: 29,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421306/glitchwebsite/ztu1cvxyriyljj2ai6gh.jpg",
+        image: product1,
         name: "product"
     },
     {
         id: 30,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421564/glitchwebsite/vc2jwjz3lxcv0luy4yay.jpg",
+        image: poster1,
         name: "product"
     },
 
     {
         id: 34,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421583/glitchwebsite/olnnexkwtn68wdy8ce3a.jpg",
+        image: poster5,
         name: "product"
     },
     {
         id: 29,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421572/glitchwebsite/dr3qjjr1mdnpjrpj0flu.jpg",
+        image: PPT,
         name: "product"
     }
 ]
@@ -485,7 +550,7 @@ export const outdoor_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419562/glitchwebsite/ihoatmltgvwcnipeuhf9.jpg",
+        image: outdoor13
     },
     {
         id: 2,
@@ -493,7 +558,7 @@ export const outdoor_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419476/glitchwebsite/f13sydzozgdqie454kzp.jpg"
+        image: outdoor7
     },
     {
         id: 2,
@@ -501,7 +566,7 @@ export const outdoor_image = [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419477/glitchwebsite/ccqnv4dginmxzfbbymgt.jpg"
+        image: outdoor3
     },
 ]
 export const event_image = [
@@ -574,13 +639,13 @@ export const creative_image = [
     },
     {
         id: 7,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421886/glitchwebsite/fau8xtcxtenu2c79ubgw.jpg"
+        image: indoor2
     }
 ]
 export const videos = [
     {
         id: 1,
-        src: "https://res.cloudinary.com/db5pgr14l/video/upload/v1731394827/glitchwebsite/nv7eeidukf7jsfjvqlo4.mp4"
+        src: horticulture,
 
     },
     {
@@ -626,12 +691,12 @@ export const all_image = [
     },
     {
         id: 8,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731420496/glitchwebsite/wvent9jartyeemzn2zuh.jpg",
+        image: outdoor12,
         name: "outdoor"
     },
     {
         id: 7,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419548/glitchwebsite/nwze3krdpq5ddnsc1q8b.jpg",
+        image: outdoor10,
         name: "event"
     },
 
@@ -667,12 +732,12 @@ export const load_more = [
 
     {
         id: 13,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421040/glitchwebsite/yj6duiwvaxmwlzxdkosa.jpg",
+        image: outdoor15,
         name: "outdoor"
     },
     {
         id: 14,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731419548/glitchwebsite/wfbakxzl0mtoxegv2wlf.jpg",
+        image: outdoor11,
         name: "outdoor"
     },
     {
@@ -692,7 +757,7 @@ export const load_more = [
     },
     {
         id: 17,
-        image: "https://res.cloudinary.com/db5pgr14l/image/upload/v1731421306/glitchwebsite/ztu1cvxyriyljj2ai6gh.jpg",
+        image: product1,
         name: "services"
     },
     {
@@ -707,9 +772,9 @@ export const load_more = [
     },
 ]
 export const images = [
-    require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731419491/glitchwebsite/lolzxbkrawum3uhys76g.jpg'),
+    require('./outdoor1.jpg'),
     require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731397081/glitchwebsite/dt6xfipap9dpmvnbi72k.jpg'),
-    require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731422431/glitchwebsite/mgatnl6tilqb8wyggdnl.jpg'),
+    require('./cooperate1.jpg'),
     require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731397086/glitchwebsite/owfv1md8yprwxoilr1ny.jpg'),
     require('https://res.cloudinary.com/db5pgr14l/image/upload/v1731414621/glitchwebsite/liad4n1pd66w1fqgkgko.jpg'),
 ];
