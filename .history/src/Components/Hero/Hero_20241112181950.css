@@ -1,0 +1,109 @@
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+}
+
+/* Make the image responsive on smaller screens */
+@media (max-width: 480px) {
+    .hero-image {
+        height: auto; /* Let the height adjust automatically */
+    }
+}
+
+/* Hero Content */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Heading Size */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 28px;
+    }
+}
+
+/* Hero Buttons */
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Button Styling */
+.btn-gallery, .btn-book {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-gallery {
+    background-color: blue;
+    color: white;
+}
+
+.btn-gallery:hover {
+    background-color: gold;
+}
+
+.btn-book {
+    background-color: gold;
+    color: white;
+}
+
+.btn-book:hover {
+    background-color: blue;
+}
+
+/* Responsive Button and Layout Adjustments */
+@media (max-width: 768px) {
+    .btn-gallery, .btn-book {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .hero-buttons {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-gallery, .btn-book {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .hero-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 15px;
+    }
+}
