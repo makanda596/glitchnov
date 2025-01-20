@@ -169,7 +169,10 @@ function Contact() {
                     </div>
 
                     {/* Right Side: Date and Photo */}
-                   
+                    <div className="form-right">
+                        {/* ElfSight widget integration */}
+                        <div className="elfsight-app-1552705b-cfc2-43a1-8c52-a2f88696bc8e" data-elfsight-app-lazy></div>
+                    </div>
                 </div>
 
                 {message && <div className="message">{message}</div>}

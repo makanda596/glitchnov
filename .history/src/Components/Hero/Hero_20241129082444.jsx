@@ -15,9 +15,9 @@ function Hero() {
 
     return (
         <div className="hero">
-            <div className="hero-image" style={{ backgroundImage: `url(${images[currentIndex]})` }} loading="lazy">
+            <div className="hero-image" loading="lazy" style={{ backgroundImage: `url(${images[currentIndex]})` }}>
                 <div className="hero-content">
-                    <h1>Glitch Lifestile</h1>
+                    <h1>Glitch Lifestyle</h1>
                     <div className="hero-buttons">
                         <Link to="/gallery" ><button className="btn-gallery">View Gallery</button></Link>
                         <Link to="/Contact" ><button className="btn-book" >Book With Us</button></Link>

@@ -155,7 +155,6 @@ function Gallery() {
                                     <img
                                         src={item.image}
                                         alt=""
-                                        loading="lazy"
                                         onClick={() => handleImageClick(item.image)}
                                     />
 
@@ -173,7 +172,6 @@ function Gallery() {
                             <img
                                 src={selectedImage}
                                 alt="Selected"
-                                loading="lazy"
                                 className="modal-image"
                             />
                         </div>
@@ -193,7 +191,6 @@ function Gallery() {
                                 <div key={index}>
                                     <div className="photosa">
                                         <img
-                                            loading="lazy"
                                             src={item.image}
                                             alt=""
                                             onClick={() => handleImageClick(item.image)}
@@ -211,7 +208,6 @@ function Gallery() {
                             >
                                 <img
                                     src={selectedImage}
-                                    loading="lazy"
                                     alt="Selected"
                                     className="modal-image"
                                 />
@@ -255,7 +251,6 @@ function Gallery() {
                                 <img
                                     src={item.image}
                                     alt=""
-                                    loading="lazy"
                                     onClick={() => handleImageClick(item.image)}
                                 />
                             </div>
@@ -312,7 +307,6 @@ function Gallery() {
                         <div key={index}>
                             <div className="photosa">
                                 <img
-                                    loading="lazy"
                                     src={item.image}
                                     alt=""
                                     onClick={() => handleImageClick(item.image)}
