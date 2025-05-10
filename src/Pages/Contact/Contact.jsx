@@ -4,7 +4,6 @@ import './contact.css'
 import Navbar from "../../Components/Navbar/Navbar";
 
 function Contact() {
-    // Form state
     const [formData, setFormData] = useState({
         name: "",
         phone: "",
@@ -24,13 +23,12 @@ function Contact() {
         setFormData({ ...formData, [name]: value });
     };
 
-    // Handle form submission to Web3Forms
     const handleSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
 
         const form = new FormData();
-        form.append("access_key", "321c6722-643e-4413-83fe-684ab77d92b8"); // Replace with your Web3Forms API key
+        form.append("access_key", "321c6722-643e-4413-83fe-684ab77d92b8"); 
         form.append("name", formData.name);
         form.append("phone", formData.phone);
         form.append("email", formData.email);
@@ -58,18 +56,7 @@ function Contact() {
         setIsSubmitting(false);
     };
 
-    // Add the script for ElfSight after the component is mounted
-    useEffect(() => {
-        const script = document.createElement("script");
-        script.src = "https://static.elfsight.com/platform/platform.js";
-        script.async = true;
-        document.body.appendChild(script);
-
-        return () => {
-            document.body.removeChild(script); // Cleanup the script
-        };
-    }, []);
-
+   
     return (
         <div>
             <Navbar />
@@ -168,7 +155,6 @@ function Contact() {
                         )}
                     </div>
 
-                    {/* Right Side: Date and Photo */}
                    
                 </div>
 

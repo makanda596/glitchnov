@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Footer from "../../Components/Footer/Footer";
+import './contact.css'
 import Navbar from "../../Components/Navbar/Navbar";
 
 function Contact() {
@@ -166,16 +167,12 @@ function Contact() {
                             </form>
                         )}
                     </div>
-
-                    {/* Right Side: Date and Photo */}
-                    <div className="form-right">
-                        {/* ElfSight widget integration */}
-                        <div className="elfsight-app-1552705b-cfc2-43a1-8c52-a2f88696bc8e" data-elfsight-app-lazy></div>
-                    </div>
+y
+                   
                 </div>
 
                 {message && <div className="message">{message}</div>}
-            </div>
+            </div>n
             <Footer />
         </div>
     );
